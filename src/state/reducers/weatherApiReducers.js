@@ -24,7 +24,7 @@ function WeatherApiReducers(state = initialState, action){
 
         case GETDAILY:
             return {
-                ...state, loading:false, daily:action.payload
+                ...state, loading:false, daily:action.payload, error: ""
                     
             }
 
