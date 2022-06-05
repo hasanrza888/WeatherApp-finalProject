@@ -1,0 +1,17 @@
+.loadSpinner{
+    color: #590696;
+    font-size: 200px;
+}
+
+.LoadingCont{
+    width: 90%;
+    margin: auto;
+    margin-top: 250px;
+    max-width: 250px;
+    height: 100vh;
+}
+
+.materialLoading{
+    font-size: 300px;
+    display: none;
+}

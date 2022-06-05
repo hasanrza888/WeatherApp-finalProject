@@ -1,0 +1,24 @@
+.mainPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colorContainer{
+    background: linear-gradient(90deg, rgba(219,165,199,1) 18%, rgba(144,109,175,1) 61%);
+}
+
+.currentAndDaily{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+}
+

@@ -1,0 +1,37 @@
+.footerDiv{
+    padding: 30px;
+    background-color: #590696;
+    color: #FBCB0A;
+}
+
+.footerCont{
+    width: 80%;
+    margin: auto;
+}
+
+.contactUsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 210px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.email{
+    text-decoration: none;
+    color: #FBCB0A;
+}
+
+.contactUs{
+    color: #37E2D5;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    width: 80%;
+    max-width: 350px;
+    margin: auto;
+}

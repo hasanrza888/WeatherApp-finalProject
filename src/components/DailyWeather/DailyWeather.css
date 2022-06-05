@@ -1,0 +1,135 @@
+.DailyWeather{
+    width: 100%;
+    padding: 30px;
+
+}
+
+.CommonContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.dailycontainer{
+    max-width: 1400px;
+    width: 95%;
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    grid-gap: 20px;
+}
+
+.dailyHeader, .HourlyWeather{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.dailyForecast{
+    width: 120px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 11.3852px;
+    padding: 10px;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dailyUnit{
+    width: 90%;
+    max-width: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.DailyIcon{
+    /* width: 80%; */
+    width: 67.57px;
+    height: 67.57px;
+    margin: 0 auto;
+}
+
+.weekDay{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.dateDay{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.hour{
+    font-size: 24px;
+    color: white;
+    text-align: center; 
+}
+
+
+
+
+
+@media screen and (max-width: 1241px){
+    .dailycontainer{
+        width: 400px;
+        /* overflow-x: scroll; */
+    }
+
+    .ArrowImage{
+        display: block;
+        width: 33.5px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1168px){
+    .dailycontainer{
+        grid-template-columns: repeat(7 , 1fr);
+    }
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .dailycontainer{
+        grid-template-columns: repeat(6 , 1fr);
+    }
+}
+
+@media screen and (max-width: 860px){
+    .dailycontainer{
+        grid-template-columns: repeat(5 , 1fr);
+    }
+}
+
+@media screen and (max-width: 728px){
+    .dailycontainer{
+        grid-template-columns: repeat(4 , 1fr);
+    }
+}
+
+@media screen and (max-width: 580px){
+    .dailycontainer{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
+@media screen and (max-width: 442px){
+    .dailycontainer{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+
